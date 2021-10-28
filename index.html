@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css">
+    <title>Todo List</title>
+    <style>
+        body{
+	background: #f8f9fa;
+}
+.alag{
+	border-left: 3px solid #ffc107;
+}
+.alag:hover{
+	    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+ .hide{
+ 	display: none;
+ }
+    </style>
+   
+</head>
+
+<body>
+    <header class="bg-primary text-light text-center py-4">
+        <h5>To do single page application</h5>
+    </header>
+    <div class="main-area px-5 py-0">
+        <div class="container mt-4">
+            <div class="row mb-4">
+                <div class="col shadow bg-primary text-center rounded text-light py-3 d-flex flex-column justify-content-center">
+                    <p class="m-0 p-0">Task</p>
+                    <p class="m-0 p-0 task">0</p>
+                </div>
+                <div class="col shadow ml-4 bg-warning text-center rounded text-dark py-3 d-flex flex-column justify-content-center">
+                    <p class="m-0 p-0">Do</p>
+                    <p class="m-0 p-0 do">0</p>
+                </div>
+                <div class="col shadow ml-4 bg-success text-center rounded text-light py-3 d-flex flex-column justify-content-center">
+                    <p class="m-0 p-0">Done</p>
+                    <p class="m-0 p-0 done">0</p>
+                </div>
+            </div>
+
+            <div class="alert alert-danger text-center w-100 mx-auto py-3 hide" role="alert">
+                Please Enter Value!
+            </div>
+        </div>
+        <div class="container">
+            <div class="row bg-white shadow px-3 py-5 rounded mb-3">
+                <h6 class="w-100">Start your day now !</h6>
+                <div class="col-10 p-0">
+
+
+
+                    <input type="text" class="form-control m-0 rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <div class="col-2 p-0">
+                    <button class="btn btn-primary rounded-0 w-100 add"><i class="fa fa-plus"></i></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="khali">
+
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+
+</html>

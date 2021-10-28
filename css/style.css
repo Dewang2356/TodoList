@@ -1,0 +1,17 @@
+body{
+	background: #f8f9fa;
+}
+.alag{
+	border-left: 3px solid #ffc107;
+}
+.alag:hover{
+	    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+@media (max-width: 480px) { 
+	.one{
+		padding: 0 !important;
+	}
+ }
+ .hide{
+ 	display: none;
+ }
